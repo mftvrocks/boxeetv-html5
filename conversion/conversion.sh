@@ -1,0 +1,2 @@
+/usr/bin/ffmpeg -i /home/riegersn/Downloads/28highlights.mp4 -acodec aac -ab 96k -vcodec libx264 -preset slow -f mp4 -crf 22 -strict experimental /tmp/tmprssY7zmiro-conversion/28highlights.mp4
+/usr/bin/ffmpeg2theora --videoquality 8 --audioquality 6 --frontend -o /tmp/tmpkvYmm2miro-conversion/28highlights.mp4 /home/riegersn/Downloads/28highlights.mp4
