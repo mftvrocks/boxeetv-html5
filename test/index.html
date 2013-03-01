@@ -14,7 +14,7 @@
 <body>
         <div id="content">
             <div id="player" class="shadow">
-                <video id="vidplayer" ontimeupdate="document.getElementById('runtime').innerHTML = (this.duration - this.currentTime).toFixed(0);">
+                <video id="vidplayer" preload ontimeupdate="document.getElementById('runtime').innerHTML = (this.duration - this.currentTime).toFixed(0);">
                     <source src="http://tapp.boxee.tv/video/28highlights.mp4" type="video/mp4" />
                     <source src="http://tapp.boxee.tv/video/28highlights.ogv" type="video/ogg" />
                     <!--<source src="http://content.hd.aol.com/video/1592850:685f14279cdba3d8b08d5bcf702561bb/1592850_2013-02-04-153250.2500.webm" type="video/webm" />-->
